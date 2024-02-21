@@ -38,6 +38,7 @@ p {
   display: flex;
   flex: 1;
   flex-direction: row-reverse;
+  justify-content: space-between;
 }
 
 .blueExample2 {
@@ -46,3 +47,105 @@ p {
 }
 
 /* TODO: Add CSS for the rest of your solution below */
+
+/* Row 3 */
+.redExample3 {
+  width: 80px;
+  background-color: red;
+}
+
+/* Row 4 */
+.wrapperRed4 {
+  display: flex;
+  height: 60px;
+  background-color: red;
+  margin-bottom: 20px;
+}
+
+/* Row 5 */
+.wrapper5 {
+  display: flex;
+  height: 60px;
+  background-color: green;
+  margin-bottom: 20px;
+  padding: 10px;
+  justify-content: center;
+}
+
+.smallRedSquare {
+  width: 60px;
+  background-color: red;
+}
+
+/* Row 6 */
+.wrapperRed6 {
+  display: flex;
+  height: 60px;
+  background-color: red;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.smallBlueSquare {
+  width: 90px;
+  background-color: blue;
+}
+
+/* Row 7 */
+.wrapper7 {
+  display: flex;
+  height: 60px;
+  background-color: blue;
+  margin-bottom: 20px;
+  /* flex-direction: row-reverse; */
+}
+
+.wrapperBlue7 {
+  display: flex;
+  height: 60px;
+  background-color: blue;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.greenLine {
+  background-color: green;
+  height: 15px;
+  width: 100%;
+  margin-top: 22px;
+  /* align-items: center; */
+}
+
+.redSquare7 {
+  background-color: red;
+  width: 80px;
+}
+
+/* Row 8 */
+.wrapperGreen8 {
+  display: flex;
+  height: 60px;
+  background-color: green;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.yellowSquare {
+  background-color: orange;
+  width: 80px;
+}
+
+/* Row 9 */
+
+.wrapperYellow9 {
+  display: flex;
+  height: 60px;
+  background-color: orange;
+  margin-bottom: 20px;
+  justify-content: space-evenly;
+}
+
+.greensquare9 {
+  background-color: green;
+  width: 20px;
+}
